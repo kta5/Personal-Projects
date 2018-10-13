@@ -64,13 +64,11 @@ def start():
         pile.pop(-1)
         start()
 
-        
+
     turns()
     
 
             
-            
-
 y = raw_input("Let's Play Crazy Eight! Please enter the number of times to shuffle: ")
 makeDeck()
 deck = shuffleDeck(deck)
